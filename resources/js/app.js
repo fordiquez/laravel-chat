@@ -8,7 +8,7 @@ Alpine.start();
 
 import './bootstrap';
 
-import {createApp} from 'vue';
+import {createApp} from 'vue/dist/vue.esm-bundler';
 import ChatMessages from './components/ChatMessages.vue';
 import ChatForm from './components/ChatForm.vue';
 
